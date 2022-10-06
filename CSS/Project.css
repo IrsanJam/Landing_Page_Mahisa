@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 body {
@@ -266,12 +267,12 @@ aside {
   padding: 50px 80px;
   height: 300px;
   border-radius: 10px;
-  overflow: auto;
 }
 aside p {
   text-align: center;
   font-size: 11px;
   padding-top: 20px;
+  padding-left: 20px;
 }
 
 #footer {
@@ -321,6 +322,9 @@ aside p {
   #mainan h1 {
     font-size: 70px;
   }
+  #about {
+    height: 300px;
+  }
   #about p {
     font-size: x-small;
     max-width: 800px;
@@ -357,13 +361,14 @@ aside p {
     height: auto;
   }
   #article img {
-    padding-left: 0px;
+    padding-left: 10px;
     margin-top: 10px;
+    margin-left: 5px;
   }
   #article p {
     font-size: 8px;
     margin-left: 13px;
-    text-align: justify;
+    text-align: center;
   }
   #contacts h2 {
     padding-top: 0px;
@@ -431,7 +436,7 @@ aside p {
     font-size: x-small;
   }
   #article {
-    height: 800px;
+    height: 590px;
   }
   #article h2 {
     padding-top: 20px;
@@ -439,16 +444,26 @@ aside p {
     text-align: center;
     width: 400px;
   }
-  #article #left {
+  #article p {
     font-size: x-small;
-    max-width: 400px;
-    height: auto;
-    text-align: center;
+    height: 200px;
+    padding-right: 25px;
+    text-align: justify;
+    margin-left: 0px;
   }
   #article img {
     padding-left: 0px;
     margin-top: 10px;
     flex-direction: column;
+  }
+  aside {
+    height: 210px;
+  }
+  aside img {
+    width: 170px;
+  }
+  aside p {
+    text-align: center;
   }
   #article p {
     font-size: 7px;
