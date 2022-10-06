@@ -292,6 +292,11 @@ aside p {
 }
 
 @media (max-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
   #header li {
     font-size: 9px;
     padding-left: 1px;
@@ -334,18 +339,22 @@ aside p {
     font-size: x-small;
   }
   #aside {
-    height: 300px;
+    height: 100px;
   }
   #article h2 {
     text-align: center;
-    padding-top: 30px;
     padding-bottom: 10px;
   }
+  #article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   #article #left {
-    font-size: x-small;
-    max-width: 400px;
-    height: auto;
     text-align: justify;
+    font-size: x-small;
+    max-width: 100%;
+    height: auto;
   }
   #article img {
     padding-left: 0px;
@@ -354,6 +363,7 @@ aside p {
   #article p {
     font-size: 8px;
     margin-left: 13px;
+    text-align: justify;
   }
   #contacts h2 {
     padding-top: 0px;
@@ -391,7 +401,7 @@ aside p {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   #header li {
     font-size: 10px;
     padding-left: 5px;
