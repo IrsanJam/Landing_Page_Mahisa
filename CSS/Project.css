@@ -291,18 +291,21 @@ aside p {
   overflow: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   #header li {
     font-size: 9px;
     padding-left: 1px;
     margin: 0 7px;
+  }
+  aside p {
+    line-height: 0.5cm;
   }
   .judul {
     font-size: 125px;
   }
 
   #navbar {
-    margin-left: 90px;
+    margin-left: 20px;
     padding-left: 20px;
   }
   #header img {
@@ -318,6 +321,7 @@ aside p {
     max-width: 800px;
     margin: auto;
     padding: 0 20px;
+    text-align: justify;
   }
   #about h2 {
     padding-top: 100px;
@@ -341,6 +345,7 @@ aside p {
     font-size: x-small;
     max-width: 400px;
     height: auto;
+    text-align: justify;
   }
   #article img {
     padding-left: 0px;
