@@ -457,18 +457,24 @@ aside p {
     flex-direction: column;
   }
   aside {
-    height: 210px;
+    height: 230px;
+    display: flex;
+    width: 100%;
+    position: relative;
   }
   aside img {
     width: 170px;
+    margin-top: 120px;
+    float: left;
   }
   aside p {
     text-align: center;
+    float: right;
   }
   #article p {
     font-size: 7px;
     margin-left: 0px;
-    padding-left: 30px;
+    padding-left: 35px;
   }
   #contacts h2 {
     padding-top: 0px;
