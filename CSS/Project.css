@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&family=Space+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: rgb(240, 234, 222);
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  box-shadow: 0 15 15px rgba(0, 0, 0, 0.7);
+  padding: 20px 27px;
+  z-index: 1000;
+}
+#header img {
+  border-radius: 50%;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+#navbar li {
+  margin: 0 15px;
+  list-style: none;
+  padding: 0px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: rgb(245, 202, 122);
+  font-weight: bold;
+}
+
+#mainan {
+  font-family: "Satisfy";
+  font-size: 26px;
+  color: rgb(219, 158, 45);
+  font-weight: bold;
+  padding: 220px 20px;
+  background-image: url(/Assets/img/menu/brooke-lark-W1B2LpQOBxA-unsplash.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 15 15px rgba(0, 0, 0, 0.06);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+}
+#mainan h6 {
+  color: rgb(145, 96, 7);
+}
+#about {
+  background-color: cadetblue;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+#about h2 {
+  text-align: center;
+  color: wheat;
+  padding: 140px 20px 14px;
+  font-family: sans-serif;
+}
+#about p {
+  text-align: center;
+  margin: 0 10 px;
+  line-height: 0.65cm;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: sans-serif;
+  color: wheat;
+  font-size: small;
+}
+
+#data {
+  height: 800px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 234, 222);
+  box-shadow: 0 15 15px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+#data h2 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  color: grey;
+}
+
+#data p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: sans-serif;
+  color: grey;
+}
+.flex-column {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(240, 234, 222);
+  height: 500px;
+  overflow: auto;
+}
+.flex-row {
+  padding: 10px 0px;
+  flex-basis: 100%;
+  height: 200px;
+  width: 10px;
+  margin: 15px 20px;
+  display: flex;
+  overflow: auto;
+}
+
+#gula {
+  background-image: url(/Assets/img/menu/gula-aren-.webp);
+  background-size: cover;
+  border-radius: 20px;
+  border: solid 5px salmon;
+  overflow: auto;
+}
+
+#ps3 {
+  background-image: url(/Assets/img/menu/ps3\ 1.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  border: solid 5px green;
+  overflow: auto;
+}
+
+#stick {
+  background-image: url(/Assets/img/menu/stick2.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  border: solid 5px goldenrod;
+  overflow: auto;
+}
+#contacts {
+  height: 800px;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  background-color: rgb(248, 240, 229);
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 15 15px rgba(0, 0, 0, 0.06);
+  overflow: auto;
+}
+#contacts h2 {
+  text-align: center;
+  color: grey;
+  padding: 100px 20px 14px;
+  font-family: sans-serif;
+}
+#contacts p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 45px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: sans-serif;
+  color: grey;
+  font-size: small;
+}
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  width: 500px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+textarea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 150px;
+  margin: auto;
+  border-radius: 5px;
+}
+#contacts button {
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: rgb(158, 157, 157);
+  color: wheat;
+  font-family: sans-serif;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 20px;
+}
+#contacts button:hover {
+  background-color: orange;
+}
+
+#article {
+  background-color: cadetblue;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+#article h2 {
+  text-align: center;
+  color: wheat;
+  padding: 80px 20px 14px;
+  font-family: sans-serif;
+  padding-bottom: 40px;
+}
+#left {
+  font-family: sans-serif;
+  color: wheat;
+  width: 800px;
+  padding: 50px 50px;
+  padding-right: 10px;
+  line-height: 0.67cm;
+  height: 300px;
+  float: left;
+  font-size: small;
+  overflow: auto;
+  text-align: center;
+}
+#right {
+  font-family: sans-serif;
+  color: wheat;
+  width: 500px;
+  padding: 50px 10px;
+  height: 300px;
+  overflow: auto;
+}
+.profil {
+  align-items: center;
+  justify-content: center;
+  margin-right: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+aside {
+  display: flex;
+  font-family: sans-serif;
+  color: wheat;
+  background-color: gray;
+  width: 500px;
+  padding: 50px 80px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: auto;
+}
+aside p {
+  text-align: center;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+#footer {
+  height: 100px;
+  background-color: cadetblue;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 11px;
+  overflow: auto;
+}
+#footer h3 {
+  line-height: 1cm;
+  color: white;
+  font-size: 16px;
+  overflow: auto;
+}
+
+@media (max-width: 600px) {
+  #header li {
+    font-size: 9px;
+    padding-left: 1px;
+    margin: 0 7px;
+  }
+  .judul {
+    font-size: 125px;
+  }
+
+  #navbar {
+    margin-left: 90px;
+    padding-left: 20px;
+  }
+  #header img {
+    width: 50px;
+    height: 50px;
+    padding-left: 0px;
+  }
+  #mainan h1 {
+    font-size: 70px;
+  }
+  #about p {
+    font-size: x-small;
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  #about h2 {
+    padding-top: 100px;
+  }
+  #data h2 {
+    padding-top: 20px;
+  }
+  #data p {
+    padding: 20px 15px;
+    font-size: x-small;
+  }
+  #aside {
+    height: 300px;
+  }
+  #article h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  #article #left {
+    font-size: x-small;
+    max-width: 400px;
+    height: auto;
+  }
+  #article img {
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+  #article p {
+    font-size: 8px;
+    margin-left: 13px;
+  }
+  #contacts h2 {
+    padding-top: 0px;
+  }
+  #contacts p {
+    font-size: x-small;
+    padding: 20px 15px;
+  }
+  .input {
+    max-width: 400px;
+  }
+  #data {
+    height: auto;
+  }
+
+  .flex-column {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  #mainan h1 {
+    font-size: 20px;
+  }
+  #mainan h6 {
+    font-size: 10px;
+  }
+  #footer p {
+    font-size: 7px;
+  }
+  #footer h3 {
+    font-size: small;
+  }
+  #contacts button {
+    width: 100px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  #header li {
+    font-size: 10px;
+    padding-left: 5px;
+  }
+  #header img {
+    width: 55px;
+    height: 55px;
+  }
+  .judul {
+    font-size: 125px;
+  }
+
+  #about p {
+    font-size: x-small;
+    max-width: 800px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  #about h2 {
+    padding-top: 30px;
+  }
+  #data h2 {
+    padding-top: 20px;
+  }
+  #data p {
+    padding: 20px 15px;
+    font-size: x-small;
+  }
+  #article {
+    height: 800px;
+  }
+  #article h2 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    width: 400px;
+  }
+  #article #left {
+    font-size: x-small;
+    max-width: 400px;
+    height: auto;
+    text-align: center;
+  }
+  #article img {
+    padding-left: 0px;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  #article p {
+    font-size: 7px;
+    margin-left: 0px;
+    padding-left: 30px;
+  }
+  #contacts h2 {
+    padding-top: 0px;
+  }
+  #contacts p {
+    font-size: x-small;
+    padding: 20px 15px;
+  }
+  .input {
+    max-width: 300px;
+  }
+  #data {
+    height: auto;
+  }
+
+  .flex-column {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  #mainan h1 {
+    font-size: 20px;
+  }
+  #mainan h6 {
+    font-size: 10px;
+  }
+  #footer p {
+    font-size: 7px;
+  }
+  #footer h3 {
+    font-size: small;
+  }
+  #contacts button {
+    width: 100px;
+    height: 50px;
+  }
+  #aside {
+    height: 200px;
+  }
+}
